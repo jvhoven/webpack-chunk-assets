@@ -1,0 +1,19 @@
+{
+  "name": "webpack-chunk-assets",
+  "version": "1.0.0",
+  "description": "Helpers to retrieve assets from Webpack chunks",
+  "main": "index.js",
+  "repository": "https://github.com/jvhoven/webpack-chunk-assets",
+  "author": "Jeffrey van Hoven <contact@jvhoven.nl>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "mocha && yarn build",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "typescript": "^3.2.2"
+  }
+}

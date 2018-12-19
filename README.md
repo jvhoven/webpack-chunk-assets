@@ -7,7 +7,7 @@ Helper function to automatically retrieve assets that belong to the requested ro
 
 Make sure you are code-splitting by utilizing dynamic imports. If you're unsure how this works, either check out the example or read up on [Code Splitting with Webpack](https://webpack.js.org/guides/code-splitting/).
 
-For this helper function to fetch the appropraite assets for the current route, it is required to name your chunks to match your route name. For example, in order to load the assets belonging to `/home`, it is required to have a chunk called `home`. Luckily Webpack provides the option to rename your dynamic import:
+For this helper function to fetch the appropriate assets for the current route, it is required to name your chunks to match your route name. For example, in order to load the assets belonging to `/home`, it is required to have a chunk called `home`. Luckily Webpack provides the option to rename your dynamic import:
 
 ```JavaScript
 import(/* webpackChunkName: "home" */'./pages/home')
@@ -54,3 +54,5 @@ app.get("*", async (req, res) => {
   `)
 }
 ```
+
+If you're having trouble be sure to check out the `example`.

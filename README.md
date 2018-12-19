@@ -1,6 +1,8 @@
 # webpack-chunk-assets
 Helper function to automatically retrieve assets that belong to the requested route for use in server-side rendering. Currently only supports route-based code splitting.
 
+![](https://img.shields.io/travis/jvhoven/webpack-chunk-assets.svg?style=for-the-badge)
+
 ## Use
 
 ### Setup code-splitting
